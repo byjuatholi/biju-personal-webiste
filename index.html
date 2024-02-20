@@ -1,0 +1,1856 @@
+
+<!DOCTYPE html>
+
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<style type="text/css">
+	#edit-cv-upload-ajax-wrapper  label {display: none}
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+ 
+</style>
+<style>
+		@-moz-keyframes glitch {
+  0% {
+    -moz-transform: skew(85deg);
+    transform: skew(85deg);
+  }
+  5% {
+    -moz-transform: skew(-88deg);
+    transform: skew(-88deg);
+  }
+  10% {
+    -moz-transform: skew(57deg);
+    transform: skew(57deg);
+  }
+  15% {
+    -moz-transform: skew(61deg);
+    transform: skew(61deg);
+  }
+  20% {
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+  }
+  25% {
+    -moz-transform: skew(16deg);
+    transform: skew(16deg);
+  }
+  30% {
+    -moz-transform: skew(42deg);
+    transform: skew(42deg);
+  }
+  35% {
+    -moz-transform: skew(-11deg);
+    transform: skew(-11deg);
+  }
+  40% {
+    -moz-transform: skew(-8deg);
+    transform: skew(-8deg);
+  }
+  45% {
+    -moz-transform: skew(72deg);
+    transform: skew(72deg);
+  }
+  50% {
+    -moz-transform: skew(-43deg);
+    transform: skew(-43deg);
+  }
+  55% {
+    -moz-transform: skew(-28deg);
+    transform: skew(-28deg);
+  }
+  60% {
+    -moz-transform: skew(39deg);
+    transform: skew(39deg);
+  }
+  65% {
+    -moz-transform: skew(-72deg);
+    transform: skew(-72deg);
+  }
+  70% {
+    -moz-transform: skew(-22deg);
+    transform: skew(-22deg);
+  }
+  75% {
+    -moz-transform: skew(-25deg);
+    transform: skew(-25deg);
+  }
+  80% {
+    -moz-transform: skew(-19deg);
+    transform: skew(-19deg);
+  }
+  85% {
+    -moz-transform: skew(31deg);
+    transform: skew(31deg);
+  }
+  90% {
+    -moz-transform: skew(-10deg);
+    transform: skew(-10deg);
+  }
+  95% {
+    -moz-transform: skew(-35deg);
+    transform: skew(-35deg);
+  }
+}
+@-webkit-keyframes glitch {
+  0% {
+    -webkit-transform: skew(1deg);
+    transform: skew(1deg);
+  }
+  5% {
+    -webkit-transform: skew(54deg);
+    transform: skew(54deg);
+  }
+  10% {
+    -webkit-transform: skew(-46deg);
+    transform: skew(-46deg);
+  }
+  15% {
+    -webkit-transform: skew(74deg);
+    transform: skew(74deg);
+  }
+  20% {
+    -webkit-transform: skew(-67deg);
+    transform: skew(-67deg);
+  }
+  25% {
+    -webkit-transform: skew(63deg);
+    transform: skew(63deg);
+  }
+  30% {
+    -webkit-transform: skew(9deg);
+    transform: skew(9deg);
+  }
+  35% {
+    -webkit-transform: skew(30deg);
+    transform: skew(30deg);
+  }
+  40% {
+    -webkit-transform: skew(80deg);
+    transform: skew(80deg);
+  }
+  45% {
+    -webkit-transform: skew(-87deg);
+    transform: skew(-87deg);
+  }
+  50% {
+    -webkit-transform: skew(1deg);
+    transform: skew(1deg);
+  }
+  55% {
+    -webkit-transform: skew(6deg);
+    transform: skew(6deg);
+  }
+  60% {
+    -webkit-transform: skew(89deg);
+    transform: skew(89deg);
+  }
+  65% {
+    -webkit-transform: skew(1deg);
+    transform: skew(1deg);
+  }
+  70% {
+    -webkit-transform: skew(-89deg);
+    transform: skew(-89deg);
+  }
+  75% {
+    -webkit-transform: skew(-63deg);
+    transform: skew(-63deg);
+  }
+  80% {
+    -webkit-transform: skew(39deg);
+    transform: skew(39deg);
+  }
+  85% {
+    -webkit-transform: skew(-53deg);
+    transform: skew(-53deg);
+  }
+  90% {
+    -webkit-transform: skew(68deg);
+    transform: skew(68deg);
+  }
+  95% {
+    -webkit-transform: skew(57deg);
+    transform: skew(57deg);
+  }
+}
+@keyframes glitch {
+  0% {
+    -moz-transform: skew(56deg);
+    -ms-transform: skew(56deg);
+    -webkit-transform: skew(56deg);
+    transform: skew(56deg);
+  }
+  5% {
+    -moz-transform: skew(-26deg);
+    -ms-transform: skew(-26deg);
+    -webkit-transform: skew(-26deg);
+    transform: skew(-26deg);
+  }
+  10% {
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -webkit-transform: skew(20deg);
+    transform: skew(20deg);
+  }
+  15% {
+    -moz-transform: skew(74deg);
+    -ms-transform: skew(74deg);
+    -webkit-transform: skew(74deg);
+    transform: skew(74deg);
+  }
+  20% {
+    -moz-transform: skew(78deg);
+    -ms-transform: skew(78deg);
+    -webkit-transform: skew(78deg);
+    transform: skew(78deg);
+  }
+  25% {
+    -moz-transform: skew(-71deg);
+    -ms-transform: skew(-71deg);
+    -webkit-transform: skew(-71deg);
+    transform: skew(-71deg);
+  }
+  30% {
+    -moz-transform: skew(9deg);
+    -ms-transform: skew(9deg);
+    -webkit-transform: skew(9deg);
+    transform: skew(9deg);
+  }
+  35% {
+    -moz-transform: skew(9deg);
+    -ms-transform: skew(9deg);
+    -webkit-transform: skew(9deg);
+    transform: skew(9deg);
+  }
+  40% {
+    -moz-transform: skew(51deg);
+    -ms-transform: skew(51deg);
+    -webkit-transform: skew(51deg);
+    transform: skew(51deg);
+  }
+  45% {
+    -moz-transform: skew(-65deg);
+    -ms-transform: skew(-65deg);
+    -webkit-transform: skew(-65deg);
+    transform: skew(-65deg);
+  }
+  50% {
+    -moz-transform: skew(26deg);
+    -ms-transform: skew(26deg);
+    -webkit-transform: skew(26deg);
+    transform: skew(26deg);
+  }
+  55% {
+    -moz-transform: skew(62deg);
+    -ms-transform: skew(62deg);
+    -webkit-transform: skew(62deg);
+    transform: skew(62deg);
+  }
+  60% {
+    -moz-transform: skew(85deg);
+    -ms-transform: skew(85deg);
+    -webkit-transform: skew(85deg);
+    transform: skew(85deg);
+  }
+  65% {
+    -moz-transform: skew(86deg);
+    -ms-transform: skew(86deg);
+    -webkit-transform: skew(86deg);
+    transform: skew(86deg);
+  }
+  70% {
+    -moz-transform: skew(87deg);
+    -ms-transform: skew(87deg);
+    -webkit-transform: skew(87deg);
+    transform: skew(87deg);
+  }
+  75% {
+    -moz-transform: skew(32deg);
+    -ms-transform: skew(32deg);
+    -webkit-transform: skew(32deg);
+    transform: skew(32deg);
+  }
+  80% {
+    -moz-transform: skew(-21deg);
+    -ms-transform: skew(-21deg);
+    -webkit-transform: skew(-21deg);
+    transform: skew(-21deg);
+  }
+  85% {
+    -moz-transform: skew(13deg);
+    -ms-transform: skew(13deg);
+    -webkit-transform: skew(13deg);
+    transform: skew(13deg);
+  }
+  90% {
+    -moz-transform: skew(-73deg);
+    -ms-transform: skew(-73deg);
+    -webkit-transform: skew(-73deg);
+    transform: skew(-73deg);
+  }
+  95% {
+    -moz-transform: skew(76deg);
+    -ms-transform: skew(76deg);
+    -webkit-transform: skew(76deg);
+    transform: skew(76deg);
+  }
+}
+@-moz-keyframes noise {
+  0% {
+    background-position: 24px -62px;
+  }
+  10% {
+    background-position: 88px -84px;
+  }
+  20% {
+    background-position: 86px -75px;
+  }
+  30% {
+    background-position: -85px -7px;
+  }
+  40% {
+    background-position: 72px 14px;
+  }
+  50% {
+    background-position: -4px -69px;
+  }
+  60% {
+    background-position: 42px 18px;
+  }
+  70% {
+    background-position: -66px -47px;
+  }
+  80% {
+    background-position: -2px 11px;
+  }
+  90% {
+    background-position: 65px 1px;
+  }
+}
+@-webkit-keyframes noise {
+  0% {
+    background-position: 14px -11px;
+  }
+  10% {
+    background-position: 19px 36px;
+  }
+  20% {
+    background-position: -89px -51px;
+  }
+  30% {
+    background-position: -85px -82px;
+  }
+  40% {
+    background-position: 91px 100px;
+  }
+  50% {
+    background-position: 43px 6px;
+  }
+  60% {
+    background-position: 46px -4px;
+  }
+  70% {
+    background-position: 6px -86px;
+  }
+  80% {
+    background-position: -77px 77px;
+  }
+  90% {
+    background-position: 39px 57px;
+  }
+}
+@keyframes noise {
+  0% {
+    background-position: 74px -35px;
+  }
+  10% {
+    background-position: 80px 6px;
+  }
+  20% {
+    background-position: -91px 16px;
+  }
+  30% {
+    background-position: -71px -29px;
+  }
+  40% {
+    background-position: 32px 82px;
+  }
+  50% {
+    background-position: 53px -37px;
+  }
+  60% {
+    background-position: -9px -63px;
+  }
+  70% {
+    background-position: 22px 77px;
+  }
+  80% {
+    background-position: -62px 2px;
+  }
+  90% {
+    background-position: -75px 79px;
+  }
+}
+@-moz-keyframes bar {
+  0% {
+    height: 35px;
+    top: 59%;
+    opacity: 0.52;
+  }
+  10% {
+    height: 66px;
+    top: 71%;
+    opacity: 0.23;
+  }
+  20% {
+    height: 132px;
+    top: 36%;
+    opacity: 0.05;
+  }
+  30% {
+    height: 71px;
+    top: 72%;
+    opacity: 0.25;
+  }
+  40% {
+    height: 189px;
+    top: 78%;
+    opacity: 0.25;
+  }
+  50% {
+    height: 131px;
+    top: 60%;
+    opacity: 0.29;
+  }
+  60% {
+    height: 356px;
+    top: 82%;
+    opacity: 0.47;
+  }
+  70% {
+    height: 347px;
+    top: 50%;
+    opacity: 0.65;
+  }
+  80% {
+    height: 93px;
+    top: 18%;
+    opacity: 0.7;
+  }
+  90% {
+    height: 168px;
+    top: 17%;
+    opacity: 0.13;
+  }
+}
+@-webkit-keyframes bar {
+  0% {
+    height: 481px;
+    top: 72%;
+    opacity: 0.76;
+  }
+  10% {
+    height: 414px;
+    top: 77%;
+    opacity: 0.31;
+  }
+  20% {
+    height: 241px;
+    top: 80%;
+    opacity: 0.71;
+  }
+  30% {
+    height: 121px;
+    top: 56%;
+    opacity: 0.55;
+  }
+  40% {
+    height: 259px;
+    top: 57%;
+    opacity: 0.76;
+  }
+  50% {
+    height: 32px;
+    top: 38%;
+    opacity: 0.52;
+  }
+  60% {
+    height: 348px;
+    top: 98%;
+    opacity: 0.6;
+  }
+  70% {
+    height: 359px;
+    top: 93%;
+    opacity: 0.26;
+  }
+  80% {
+    height: 497px;
+    top: 35%;
+    opacity: 0.47;
+  }
+  90% {
+    height: 225px;
+    top: 65%;
+    opacity: 0.17;
+  }
+}
+@keyframes bar {
+  0% {
+    height: 590px;
+    top: 54%;
+    opacity: 0.05;
+  }
+  10% {
+    height: 274px;
+    top: 62%;
+    opacity: 0.37;
+  }
+  20% {
+    height: 579px;
+    top: 77%;
+    opacity: 0.26;
+  }
+  30% {
+    height: 157px;
+    top: 91%;
+    opacity: 0.33;
+  }
+  40% {
+    height: 551px;
+    top: 68%;
+    opacity: 0.05;
+  }
+  50% {
+    height: 310px;
+    top: 25%;
+    opacity: 0.23;
+  }
+  60% {
+    height: 118px;
+    top: 82%;
+    opacity: 0.32;
+  }
+  70% {
+    height: 70px;
+    top: 43%;
+    opacity: 0.39;
+  }
+  80% {
+    height: 435px;
+    top: 5%;
+    opacity: 0.51;
+  }
+  90% {
+    height: 430px;
+    top: 18%;
+    opacity: 0.57;
+  }
+}
+.glitch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font: 15px "Michroma", helvetica, sans-serif;
+  letter-spacing: 0.6em;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=20);
+  text-shadow: 2px 0 1px #f6050a, -2px 0 1px #1cf2f2;
+  -moz-animation: noise 0.3s infinite;
+  -webkit-animation: noise 0.3s infinite;
+  animation: noise 0.3s infinite;
+}
+.glitch:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+.glitch:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: url(http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=ffffff&density=61&opacity=40);
+  -moz-animation: bar 0.5s infinite;
+  -webkit-animation: bar 0.5s infinite;
+  animation: bar 0.5s infinite;
+}
+.glitch span {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  -moz-animation: glitch 3s infinite alternate;
+  -webkit-animation: glitch 3s infinite alternate;
+  animation: glitch 3s infinite alternate;
+}
+
+	</style>
+<head>
+
+
+ 
+    <meta charset="utf-8">
+
+    <title>Byju | UI Dev &amp; Design</title>
+
+    <meta name="description" content="Byju | UI Dev and Design">
+
+    <meta name="author" content="Byju - baijuatholi@gmail.com">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	
+
+
+
+<!-- CSS
+
+    ================================================== -->
+
+    <link rel="stylesheet" href="css/base.css">
+
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <link rel="stylesheet" href="css/logos.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet"  href="css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<!-- scripts
+
+    ================================================== -->
+
+    <script src="js/modernizr.js"></script>
+
+    <script src="js/pace.min.js"></script>
+
+
+
+<!-- favicons
+
+    ================================================== -->
+
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+
+
+<!-- fonts
+
+    ================================================== -->
+
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300,100,100italic,300italic,400italic,600,600italic,700italic' rel='stylesheet' type='text/css'/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+</head>
+
+
+
+<body id="top">
+
+    <div class="lineDown"></div>
+
+    <div class="line"></div>
+
+    <div class="titleDate2">
+
+        <script type="text/javascript">document.write(new Date().getFullYear())</script>
+
+    </div>
+
+    <div class="topNav">
+
+        <div class="headerNav">
+
+            <ul>
+
+                <li class="a1"><a class="smoothscroll" href="#top">home <span>01</span></a></li><li class="a2"><a class="smoothscroll" href="#aboutMe"> about<span>02</span></a></li><li class="a3"><a class="smoothscroll" href="#skills">skills <span>03</span></a></li><li class="a3"><a class="smoothscroll" href="#work">works <span>04</span></a></li>
+                <li class="a4"><a class="smoothscroll" href="#credentials">history <span>05</span></a></li><li class="a5"><a class="smoothscroll" href="#contact">contact <span>06</span></a></li>
+
+            </ul>
+
+            <div class="navBar"></div>
+
+        </div>
+
+    </div>
+
+
+
+    <header role="banner">
+
+        <a id="header-menu-trigger" href="#0">
+
+            <span class="header-menu-icon"></span>
+
+        </a>
+
+        <nav id="menu-nav-wrap" role="navigation">
+
+            <a href="#0" class="close-button" title="close"><span>Close</span></a>
+
+            <h3>Byju portfolio</h3>
+
+            <ul class="nav-list">
+
+                <li class="current"><a class="smoothscroll" href="#top" title="Top">Home</a></li>
+
+                <li><a class="smoothscroll" href="#aboutMe" title="About">About</a></li>
+
+                <li><a class="smoothscroll" href="#skills" title="Skills">Skills</a></li>
+                   
+                    <li><a class="smoothscroll" href="#work" title="Works">Works</a></li>
+
+                <li><a class="smoothscroll" href="#credentials" title="History">History</a></li>
+
+                <li><a class="smoothscroll" href="#contact" title="Contact">Contact</a></li>
+
+            </ul>
+
+            <ul class="header-social-list">
+
+                
+
+                <li><a href="https://www.behance.net/baijuathol1179" target="_blank"><i class="fa fa-behance"></i> Behance</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <section id="home" role="main" aria-labelledby="section-home">
+
+        <div class="overlay"></div>
+
+        <div class="home-content-table">
+
+            <div class="home-content-tablecell">
+
+                <div class="items__inner" id="js-scene">
+
+                    <div class="items__layer layer" data-depth=".02"><div class="bgHero items__item" ></div></div>
+
+                    <div class="items__layer layer" data-depth=".15"><div class="items__item3"></div></div>
+
+                    <div class="items__layer layer" data-depth=".20"><div class="items__item4"></div></div>
+
+                    <div class="items__layer layer" data-depth=".10"><div class="items__item2"></div></div>
+
+                </div>
+
+                <div class="row-alt" >
+
+                    <div class="col-twelve">
+
+                        <div class="home-bottom-text">
+
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100px" viewBox="0 0 600 100" style="enable-background:new 0 0 300 100;" xml:space="preserve">
+
+                                <text transform="translate(0 95)">
+
+                                    <tspan class="textPath" x="0" y="0">Byju</tspan>
+
+                                </text>
+
+                            </svg>
+
+                            <h1 class="headTitle animate-intro mask" data-animate="fadeInLeft" id="section-home">
+
+                                UI Dev <span><span>&amp;</span> Design</span>
+
+                            </h1>
+
+                            <ul class="home-section-links linkFrame" role="navigation">
+
+                                <li class="animate-intro"><span>learn</span> <a href="#aboutMe" class="smoothscroll "><span>About Me</span></a></li>
+
+                                <li class="animate-intro"><span>check</span> <a href="#skills" class="smoothscroll"><span>My Skillset</span></a></li>
+<li class="animate-intro"><span>check</span> <a href="#work" class="smoothscroll"><span>My Works</span></a></li>
+                                <li class="animate-intro"><span>review</span> <a href="#credentials" class="smoothscroll"><span>My History</span></a></li>
+
+                                <li class="animate-intro"><span>contact</span> <a href="#contact" class="smoothscroll"><span>By Email</span></a></li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- FF only - .row-alt clip-path fix -->
+
+                <svg width="0" height="0">
+
+                    <defs>
+
+                        <clipPath id="clip-shape" clipPathUnits="objectBoundingBox">
+
+                            <polygon points="0 0, 1 0, 0.80 1, 0 1" />
+
+                        </clipPath>
+
+                    </defs>
+
+                </svg>
+
+                <style>
+
+                    @media only screen and (min-width: 769px) {
+
+                        _::-moz-range-track, body:last-child .home-content-tablecell .row-alt {
+
+                            clip-path: url("#clip-shape");
+
+                        }
+
+                    }
+
+                </style>
+
+                <!-- /FF only - .row-alt clip-path fix -->
+
+
+
+            </div>
+
+        </div>
+
+        <div class="scrollDown">
+
+            <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+
+            <svg viewBox="0 0 56 56" version="1.1">
+
+                <path d="M27.0683594,31.5478516 L22.1601562,26.6396484 L22.9326172,25.8603516 L27.0683594,29.9960938 L31.2041016,25.8603516 L31.9765625,26.6396484 L27.0683594,31.5478516 Z" id="scrollDownArrow"></path>
+
+                <path d="M27.0683594,31.5478516 L22.1601562,26.6396484 L22.9326172,25.8603516 L27.0683594,29.9960938 L31.2041016,25.8603516 L31.9765625,26.6396484 L27.0683594,31.5478516 Z" id="scrollDownArrow2"></path>
+
+            </svg>
+
+        </div>
+
+
+
+        <!-- Awards -->
+
+        
+
+       
+
+
+    </section>
+
+
+
+    <div class="section welcomeBar highRight" id="aboutMe" >
+
+        <canvas id="playground"></canvas>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-line">
+
+            <line x1="0" y1="1" x2="100%" y2="1"/>
+
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg-line-2">
+
+            <line x1="0" y1="1" x2="100%" y2="1"/>
+
+        </svg>
+
+        <h2 class="intro intro-alt animate-this">
+
+            <div class="lineBlock lineBlock-1"><div></div></div>
+
+            <div class="lineBlock lineBlock-2"><div></div></div>
+
+            <span class="animate-this" data-animate="fadeInUp">I've been a Front-end Developer and UI Designer for over a decade and I love this stuff.</span>
+
+            <span class="animate-this" data-animate="fadeInUp" style="animation-delay: 1s">My focus is responsive, cross-browser friendly code and device-agnostic web design.</span>
+
+        </h2>
+
+    </div>
+
+
+
+    <!-- .highRight clip-path cross-browser fix -->
+
+    <svg width="0" height="0">
+
+        <defs>
+
+            <clipPath id="clip-shape2" clipPathUnits="objectBoundingBox">
+
+                <polygon points="0 .10, 1 0, 1 1, 0 1" />
+
+            </clipPath>
+
+        </defs>
+
+    </svg>
+
+    <style>
+
+        @media only screen and (min-width: 769px) {
+
+            _::-moz-range-track, body:last-child .highRight {
+
+                clip-path: url("#clip-shape2");
+
+            }
+
+        }
+
+    </style>
+
+    <!-- /.highRight clip-path cross-browser fix -->
+
+ 
+
+
+
+
+
+<!-- about
+
+    ================================================== -->
+
+    <section id="about" class="highRight" aria-labelledby="section-about">
+
+        <div class="about-profile-bg"></div>
+
+        <div class="about-wrap">
+
+            <div class="about-profile">
+
+                <div class="about-profile-bg"></div>
+
+                <div class="intro">
+
+                    <h3 class="word-lines animate-this" id="section-about"><span>About</span></h3>
+
+                    <h1 class="animate-this">Who I Am</h1>
+
+                    <p class="lead animate-this">
+My name is Byju from India.
+I'm an experienced UI developer and Designer on a personal mission to help the web suck less. I live for staying up-to-date with the new methods and technology that come along, this stuff never gets old.
+
+                    </p>
+
+
+
+                    <p class="lead animate-this">
+
+                        I'had the opportunity to work for clients like ePlanet Solutions, Spigot software Pvt.Ltd.,Aufait technologies, MorganMckinley Mahe, Griston Technologies.
+
+                        Currently working Freston Analytics and living in Kozhikode Atholi,in the awesome Village.
+
+                    </p>
+
+
+
+                </div>
+
+                <div class="bio wait">
+
+                    <h4 class="animate-this">The <span>'When he can't find his computer'</span> Eric:</h4>
+
+                    <ul class="animate-this">
+
+                        <li>A nerd, one of those 'book reader' guys.</li>
+
+                        <li>Likes to travel and explore.</li>
+
+                        <li>Big fan of Football.</li>
+
+                        <li>Loves Painting and Drawing.</li>
+
+                      
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="about-services">
+
+                <div class="intro">
+
+                    <h3 class="word-lines animate-this" data-animate="fadeInRight"><span>Services</span></h3>
+
+                    <h1 class="animate-this" data-animate="fadeInRight">What I Bring</h1>
+
+                    <ul class="lead animate-this toolList" data-animate="fadeInRight">
+
+                        <li>HTML, CSS, JavaScript and Adobe Creative Suite expertise.</li>
+
+                        <li>10+ years digital development - web, email and animation.</li>
+
+                        <li>In-depth understanding of code capabilities accross web browsers and devices.</li>
+
+                        <li>Ability to development independently but love working in a team environment.</li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="services">
+
+                    <li class="item-webdesign animate-this" data-animate="fadeInRight">
+
+                        <div class="animate-this anim-dur-1" data-animate="fadeInRight"><i class="fa fa-desktop"></i></div>
+
+                        <div class="service-item">
+
+                            <h4>UI Development</h4>
+
+                            <p>I excel at converting designs into pixel-perfect responsive, device agnostic, cross-browser friendly websites/apps. Accessibility, Search Engine Optimization and semantic markup come with that. I also have experience building and testing emails accross clients as well as animated banner ads.
+
+                            </p>
+
+                            
+
+                        </div>
+
+                    </li>
+
+                    <li class="item-uiux animate-this" data-animate="fadeInRight">
+
+                        <div class="animate-this anim-dur-1" data-animate="fadeInRight"><i class="fa fa-paint-brush"></i></div>
+
+                        <div class="service-item">
+
+                            <h4>UI/UX Design</h4>
+
+                            <p>I've won awards for website and logo designs and have expert level Photoshop and Illustrator skills. 
+
+                            </p>
+
+                            <div class="sub-ico dribbble">
+
+                                <a href="https://www.behance.net/baijuathol1179" target="_blank" >
+
+                                    <span>Design work on behance<i class="fa fa-behance"></i></span>
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+        
+
+    </section>
+
+
+    <!--  <div class="section logoWrap" role="complementary">-->
+
+
+<!-- about
+
+    ================================================== -->
+
+    <section id="skills" aria-labelledby="section-skillset">
+
+        <div class="row wide">
+
+            <div class="col-skills width70">
+
+                <div class="section-intro">
+
+                    <h3 class="animate-this" data-animate="fadeInLeft" id="section-skillset">Skillset</h3>
+
+                    <h1 class="animate-this" data-animate="fadeInLeft">My Proficiencies</h1>
+
+                </div>
+
+                <div class="col-skills width30">
+
+                    <ul class="skill-bars">
+
+                        <li class="animate-this anim-dur-1" data-animate="fadeInLeft">
+
+                            <div class="progress percent90"></div>
+
+                            <strong>HTML5</strong>
+
+                        </li>
+
+                        <li class="animate-this anim-dur-1" data-animate="fadeInLeft">
+
+                            <div class="progress percent95"></div>
+
+                            <strong>CSS3</strong>
+
+                        </li>
+
+                        <li class="animate-this anim-dur-1" data-animate="fadeInLeft">
+
+                            <div class="progress percent40"></div>
+
+                            <strong>Javascript</strong>
+
+                        </li>
+
+                        <li class="animate-this anim-dur-1" data-animate="fadeInLeft">
+
+                            <div class="progress percent95"></div>
+
+                            <strong>Photoshop CC</strong>
+
+                        </li>
+
+                        <li class="animate-this anim-dur-1" data-animate="fadeInLeft">
+
+                            <div class="progress percent70"></div>
+
+                            <strong>IllustratorCC</strong>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-skills width70">
+
+                    <ul class="toolList listpadR">
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            Responsive/Progressive Enhancement/mobile first layouts
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            CSS3 Keyframe, HTML5 Greensock/GSAP, Micro-interaction, SVG and Canvas animation.
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            Working knowledge of JavaScript and jQuery.
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            Boostrap, CSS Flexbox &amp; Grid
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            SEO, W3C standards
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            Marketo, Email Dev - custom table layouts
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInLeft">
+
+                            Banner Ads - HTML5 Animation
+
+                        </li>
+
+                    </ul>
+
+                    <br>
+
+                </div>
+
+            </div>
+
+            <div class="col-skills width30">
+
+                <div class="section-intro">
+
+                    <h3 class="animate-this" data-animate="fadeInRight">Toolbox</h3>
+
+                    <h1 class="animate-this" data-animate="fadeInRight">What I Use</h1>
+
+                </div>
+
+                <div class="tool-col">
+
+                    <ul class="toolList">
+
+                        <li class="animate-this" data-animate="fadeInRight">
+
+                            Windows or Mac
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInRight">
+
+                           Dreamweaver, Notepad++
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInRight">
+
+                            Photoshop, Illustrator, Google Web Designer, InDesign, wireframing - Balsamiq
+
+                        </li>
+
+                        <li class="animate-this" data-animate="fadeInRight" id="work">
+
+                            MS Office Suite, Google Docs
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+		<span style="width: 100%; float: left;  text-align: center;margin-top: 30px; padding-bottom: 50px" ><h1 class="animate-this" data-animate="fadeInLeft" style="color: #fff ">My work </h1></span>
+        <div style="width: 100%; float: left; position: relative; min-height: 450px; height: auto; z-index: 9; padding: 5px 0px;  ">
+        	
+        
+        <main>
+        
+		
+
+    <div id="carousel">
+       
+        
+
+       <div class="hideLeft" >
+		   <a href="http://www.snowholidays.com.au/" target="_blank"><img src="images/snow-au.png"></a>
+      </div>
+
+      <div class="prevLeftSecond">
+		   <a href="http://www.ofa.om/" target="_blank"><img  src="images/ofa.jpg" alt=""></a>
+      </div>
+
+      <div class="prev">
+		  <a href="http://www.omanair.com/eg/en/" target="_blank"><img src="images/oman-air.jpg"></a>
+      </div>
+
+      <div class="selected">
+		  <a href="http://mindster.in/" target="_blank"><img  src="images/mindster.png" alt=""></a>
+      </div>
+
+      <div class="next">
+		  <a href="https://play.google.com/store/apps/details?id=com.heyauto.publicapp&hl=en"  target="_blank"><img src="images/mobile-auto.jpg"></a>
+      </div>
+
+      <div class="nextRightSecond">
+       <a href="https://www.morganmckinley.ie/" target="_blank"><img src="images/mmk-site.jpg"></a>
+      </div>
+
+      <div class="hideRight">
+         <a href="https://www.advancedpetrochem.com/"><img src="images/adavnced-pc.jpg"></a>
+      </div>
+      
+      </div>
+
+    </div>
+
+    <div class="buttons">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+
+  </main>
+		</div>
+
+    </section>
+
+
+
+
+
+<!-- History
+
+    ================================================== -->
+
+    <section id="credentials" aria-labelledby="section-career" class="highRight history-background" >
+
+        <div class="diagonal-1 onEnter"></div>
+
+        <div class="diagonal-2 onEnter"></div>
+
+        <div class="row narrow section-intro with-bottom-sep animate-this">
+
+            <div class="col-twelve">
+
+                <h3 class="word-lines animate-this" id="section-career"><span>Career and Education</span></h3>
+
+                <h1 class="animate-this">My History</h1>
+
+            </div>
+
+        </div>
+
+        <div class="row narrow credentials-content">
+
+            <div class="col-six tab-full left">
+
+                <h2 class="animate-this" data-animate="fadeInLeft">Experience</h2>
+
+                <div class="timeline-wrap animate-this" data-animate="fadeInLeft">
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-leaf"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2016 – Present</p>
+
+                            <h3><a href="https://www.morganmckinley.com/" target="_blank" class="linkOut">Morgan Mckinley</a></h3>
+
+                            <h4>UI Designer</h4>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-leaf"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2012 - 2016</p>
+
+                            <h3><a href="http://aufait.in/" target="_blank" class="linkOut">Aufait Technologies Pvt. Ltd. - Calicut.</a></h3>
+
+                            <h4>Web Designer</h4>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-leaf"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2008 – 2012</p>
+
+                            <h3><a href="http://www.spigotsoft.com/" target="_blank" class="linkOut">Spigot software Pvt.Ltd.</a></h3>
+
+                            <h4>UI Designer</h4>
+
+                        </div>
+
+                    </div>
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-leaf"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2005 – 2008</p>
+
+                            <h3><a href="www.eplanetconsulting.com" target="_blank" class="linkOut">ePlanet Solutions</a></h3>
+
+                            <h4>Web Designer</h4>
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+            <div class="col-six tab-full right">
+
+                <h2 class="animate-this" data-animate="fadeInRight">Education</h2>
+
+                <div class="timeline-wrap animate-this" data-animate="fadeInRight">
+                    
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-paint-brush "></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">1998</p>
+
+                            <h3><a href="#"  >Fine arts college –Calicut </a></h3>
+
+                            <h4>Govt: Diploma in Fine arts</h4>
+
+                        </div>
+
+                    </div>
+
+                   <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-university"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2003</p>
+
+                            <h3><a href="#"  >Calicut University</a></h3>
+
+                            <h4>Bachelor of Arts in Literature </h4>
+
+                        </div>
+
+                    </div>
+                    
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico">
+
+                            <i class="fa fa-graduation-cap"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <p class="timeframe">2005</p>
+
+                            <h3><a href="#"  >Kerala State Computer Academy , Kozhikode </a></h3>
+
+                            <h4>Certify in Web & Graphics </h4>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+               <!-- <h2 class="animate-this" data-animate="fadeInRight">Awards</h2>
+
+                <div class="timeline-wrap animate-this" data-animate="fadeInRight">
+
+                    <div class="timeline-block">
+
+                        <div class="timeline-ico ico-trophy">
+
+                            <i class="fa fa-trophy"></i>
+
+                        </div>
+
+                        <div class="timeline-header">
+
+                            <h4>‘Site of the Month’ <br><span><a href="http://www.creativebloq.com/net-magazine/" class="linkOut" target="_blank">.NET Magazine</a></span></h4>
+
+                            <h4>‘​Best of the Year’ <br><span><a href="https://www.smashingmagazine.com/" class="linkOut" target="_blank">SmashingMagazine.com</a></span></h4>
+
+                            <h4> - other lauds:<br><span> StyleGala, CSSMania, W3C Sites, OnePixelArmy, Most Inspired, Light on Dark, CSS-Galleries, Screenalicious, CSS Hazard.<br>Sites featured on 25 other galleries.</span></h4>
+
+                        </div>
+
+                    </div>
+
+                </div>-->
+
+            </div>
+
+        </div>
+
+        <div class="btn-slew-wrap">
+
+            <a href="images/byju_resume.doc" class="btn-slew" >
+
+                <span>My Resume (DOC) <i class="fa fa-download"></i></span>
+
+            </a>
+
+        </div>
+        
+        
+
+    </section>
+
+
+
+
+    <!-- https://mapbuildr.com/buildr/3oiusy -->
+
+
+
+
+<!-- contact
+
+    ================================================== -->
+
+    <section id="contact" aria-labelledby="section-contact">
+
+        <div class="overlay"></div>
+
+        <canvas id="stage"></canvas>
+
+        <div class="row narrow section-intro">
+
+            <div class="col-twelve"><!--
+
+                <img src="images/e2.png" alt="picture of Eric" class='round'> -->
+
+                <h3 class="animate-this" id="section-contact">Contact</h3>
+                 <p class="lead animate-this"><sub>(unverified)</sub></p>
+              <div class="lead animate-this">
+
+			
+		
+			
+			
+				<h4 style="color:#7e8ebb">My email:</h4>
+				<p ><a href="mailto:baijuatholi@gmail.com?Subject=Design Requirement &Body=I saw this and thought of you! " style="color:#fff">baijuatholi@gmail.com</a></p>
+
+				<h4 style="color:#7e8ebb">Phone number:</h4>
+				<p style="color:#fff">  +91 8281 169 968, 8075 089 959</p>
+
+		
+
+		</div>
+<!-- I got these buttons from simplesharebuttons.com -->
+<div class="animate-this" id="share-buttons" >
+   
+    
+   
+    
+    <!-- Email -->
+    <a href="mailto:baijuatholi@gmail.com?Subject=Design Requirement &Body=I saw this and thought of you!  ">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+    </a>
+ 
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/baiju.payingat" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    
+   
+    
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/byju-p-3693b637/" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/linkedin.png" alt="LinkedIn" />
+    </a>
+    
+    
+   
+    <!-- Twitter -->
+    <a href="https://twitter.com/baijuatholi" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+    
+   
+    
+
+</div>
+              <h1 class="animate-this">Drop Me a Line</h1>
+
+
+
+
+
+                <p class="lead animate-this">Unlike most forms, this one is fun and easy to use. You should try it out.<br>I'm told it can even make you better looking. <sub>(unverified)</sub></p>
+
+            </div>
+
+        </div>
+
+        <div class="row contact-form">
+
+            <div class="col-twelve">
+
+                <form name="contactForm" id="contactForm" method="post">
+
+                    <div class="form-field animate-this">
+
+                        <label for="contactName">Name</label>
+
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+
+                    </div>
+
+                    <div class="form-field animate-this">
+
+                        <label for="contactEmail">Email</label>
+
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+
+                    </div>
+
+                    <div class="form-field animate-this">
+
+                        <label for="contactSubject">Subject</label>
+
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+
+                    </div>
+
+                    <div class="form-field animate-this">
+
+                        <label for="contactMessage">Message</label>
+
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required></textarea>
+
+                    </div>
+
+                    <div class="form-field animate-this">
+
+                        <button class="submitform swipe">Send</button>
+
+                        <div id="submit-loader">
+
+                            <div class="text-loader">Sending...</div>
+
+                            <div class="s-loader">
+
+                                <div class="bounce1"></div>
+
+                                <div class="bounce2"></div>
+
+                                <div class="bounce3"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </form> <!-- Form End -->
+
+                <!-- contact-warning -->
+
+                <div id="message-warning"></div>
+
+                <!-- contact-success -->
+
+                <div id="message-success">
+
+                    <i class="fa fa-check"></i>Your message was sent, Sweet!<br>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+<!-- footer
+
+    ================================================== -->
+
+    <footer>
+
+        <div id="go-top" role="navigation">
+
+            <a class="smoothscroll scroll-up" title="Back to Top" href="#top">
+
+                <span class="left-bar"></span>
+
+                <span class="right-bar"></span>
+
+                <svg width="40" height="40">
+
+                    <line class="top" x1="0" y1="0" x2="120" y2="0"/>
+
+                    <line class="left" x1="0" y1="40" x2="0" y2="-80"/>
+
+                    <line class="bottom" x1="40" y1="40" x2="-80" y2="40"/>
+
+                    <line class="right" x1="40" y1="0" x2="40" y2="1200"/>
+
+                </svg>
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+
+    <div id="preloader">
+<div class="glitch">
+		<span> Loading...No Signal</span></div>
+        <div id="loader2">
+
+            <div class="loadcenter">
+
+               <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 526 526" xml:space="preserve">
+
+  
+        <path class="l1" d="M128.59,50.92C267.42,66.65,265.07,90.07,265.07,90.07s40.67-13.94,10.1,57.35S260.28,199,260.28,199s-19.07,21.27-49.49,28.79-73.49-12.17-13.8,13,70.71-8,74.2,45.76,7.09,45.51,3.11,67.21,8.24,5.27-17.68,31.38-12.22,16.43-49.44,27.11-72.24,3-79,4.45S128.59,50.92,128.59,50.92Z"/>
+
+
+                   
+
+                </svg>
+-->
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+<!-- Java Script
+
+    ================================================== -->
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script src="js/shapes-polyfill.min.js"></script>
+    <script >
+		function moveToSelected(element) {
+
+  if (element == "next") {
+    var selected = $(".selected").next();
+  } else if (element == "prev") {
+    var selected = $(".selected").prev();
+  } else {
+    var selected = element;
+  }
+
+  var next = $(selected).next();
+  var prev = $(selected).prev();
+  var prevSecond = $(prev).prev();
+  var nextSecond = $(next).next();
+
+  $(selected).removeClass().addClass("selected");
+
+  $(prev).removeClass().addClass("prev");
+  $(next).removeClass().addClass("next");
+
+  $(nextSecond).removeClass().addClass("nextRightSecond");
+  $(prevSecond).removeClass().addClass("prevLeftSecond");
+
+  $(nextSecond).nextAll().removeClass().addClass('hideRight');
+  $(prevSecond).prevAll().removeClass().addClass('hideLeft');
+
+}
+
+// Eventos teclado
+$(document).keydown(function(e) {
+    switch(e.which) {
+        case 37: // left
+        moveToSelected('prev');
+        break;
+
+        case 39: // right
+        moveToSelected('next');
+        break;
+
+        default: return;
+    }
+    e.preventDefault();
+});
+
+$('#carousel div').click(function() {
+  moveToSelected($(this));
+});
+
+$('#prev').click(function() {
+  moveToSelected('prev');
+});
+
+$('#next').click(function() {
+  moveToSelected('next');
+});
+
+		
+</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+
+
+
+</body>
+
+
+
+</html>
